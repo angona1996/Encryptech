@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recording_info>
+	<group name="ActionGroup1" active_product_id="5" set_proxy="false">
+		<starting_url><![CDATA[http://localhost/Encryptech/admin_area]]></starting_url>
+		<auth_info>
+			<auth_mechanism>0</auth_mechanism>
+			<auth_domain></auth_domain>
+			<auth_user></auth_user>
+			<auth_password></auth_password>
+			<use_client_ssl_certificate>false</use_client_ssl_certificate>
+			<cert_file></cert_file>
+			<cert_password></cert_password>
+		</auth_info>
+		<host index="0">
+			<name>localhost</name>
+			<protocol>http</protocol>
+			<port>80</port>
+		</host>
+		<browser>
+			<title><![CDATA[Browser_1]]></title>
+			<host_index>0</host_index>
+			<path>/Encryptech/admin_area</path>
+			<task_id>1</task_id>
+			<think_time>10</think_time>
+		</browser>
+		<event object_name="WebBrowserElement">
+			<element_class>BrowserElement</element_class>
+			<type>1</type>
+			<type_name>close</type_name>
+			<element_title><![CDATA[close on WebBrowserElement]]></element_title>
+			<think_time>1</think_time>
+			<task_id>2</task_id>
+			<is_window_element>false</is_window_element>
+			<is_recorded_while_showing_ssl>false</is_recorded_while_showing_ssl>
+			<image_file></image_file>
+		</event>
+	</group>
+	<group name="ActionGroup1" active_product_id="5" set_proxy="false">
+		<starting_url><![CDATA[http://localhost/Encryptech/admin_area]]></starting_url>
+		<auth_info>
+			<auth_mechanism>0</auth_mechanism>
+			<auth_domain></auth_domain>
+			<auth_user></auth_user>
+			<auth_password></auth_password>
+			<use_client_ssl_certificate>false</use_client_ssl_certificate>
+			<cert_file></cert_file>
+			<cert_password></cert_password>
+		</auth_info>
+		<host index="0">
+			<name>localhost</name>
+			<protocol>http</protocol>
+			<port>80</port>
+		</host>
+		<browser>
+			<title><![CDATA[Browser_2]]></title>
+			<host_index>0</host_index>
+			<path>/Encryptech/admin_area</path>
+			<task_id>1</task_id>
+			<think_time>10</think_time>
+		</browser>
+		<event object_name="WebBrowserElement">
+			<element_class>BrowserElement</element_class>
+			<type>1</type>
+			<type_name>close</type_name>
+			<element_title><![CDATA[close on WebBrowserElement]]></element_title>
+			<think_time>1</think_time>
+			<task_id>2</task_id>
+			<is_window_element>false</is_window_element>
+			<is_recorded_while_showing_ssl>false</is_recorded_while_showing_ssl>
+			<image_file></image_file>
+		</event>
+	</group>
+	<group name="ActionGroup1" active_product_id="5" set_proxy="false">
+		<starting_url><![CDATA[http://localhost/Encryptech/]]></starting_url>
+		<auth_info>
+			<auth_mechanism>0</auth_mechanism>
+			<auth_domain></auth_domain>
+			<auth_user></auth_user>
+			<auth_password></auth_password>
+			<use_client_ssl_certificate>false</use_client_ssl_certificate>
+			<cert_file></cert_file>
+			<cert_password></cert_password>
+		</auth_info>
+		<host index="0">
+			<name>localhost</name>
+			<protocol>http</protocol>
+			<port>80</port>
+		</host>
+		<browser>
+			<title><![CDATA[Browser_3]]></title>
+			<host_index>0</host_index>
+			<path>/Encryptech/</path>
+			<task_id>1</task_id>
+			<think_time>10</think_time>
+		</browser>
+		<event object_name="WebBrowserElement">
+			<element_class>BrowserElement</element_class>
+			<type>1</type>
+			<type_name>close</type_name>
+			<element_title><![CDATA[close on WebBrowserElement ]]></element_title>
+			<think_time>1</think_time>
+			<task_id>2</task_id>
+			<is_window_element>false</is_window_element>
+			<is_recorded_while_showing_ssl>false</is_recorded_while_showing_ssl>
+			<image_file></image_file>
+		</event>
+	</group>
+</recording_info>

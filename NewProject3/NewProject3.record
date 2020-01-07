@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recording_info>
+	<group name="ActionGroup1" active_product_id="5" set_proxy="false">
+		<starting_url><![CDATA[http://localhost:8392/petstore]]></starting_url>
+		<auth_info>
+			<auth_mechanism>0</auth_mechanism>
+			<auth_domain></auth_domain>
+			<auth_user></auth_user>
+			<auth_password></auth_password>
+			<use_client_ssl_certificate>false</use_client_ssl_certificate>
+			<cert_file></cert_file>
+			<cert_password></cert_password>
+		</auth_info>
+		<host index="0">
+			<name>localhost</name>
+			<protocol>http</protocol>
+			<port>8392</port>
+		</host>
+		<browser>
+			<title><![CDATA[Browser_1]]></title>
+			<host_index>0</host_index>
+			<path>/petstore</path>
+			<task_id>1</task_id>
+			<think_time>10</think_time>
+		</browser>
+		<event object_name="WebBrowserElement">
+			<element_class>BrowserElement</element_class>
+			<type>1</type>
+			<type_name>close</type_name>
+			<element_title><![CDATA[close on WebBrowserElement]]></element_title>
+			<think_time>1</think_time>
+			<task_id>2</task_id>
+			<is_window_element>false</is_window_element>
+			<is_recorded_while_showing_ssl>false</is_recorded_while_showing_ssl>
+			<image_file></image_file>
+		</event>
+	</group>
+	<group name="ActionGroup1" active_product_id="5" set_proxy="false">
+		<starting_url><![CDATA[http://localhost/Encryptech/index.php]]></starting_url>
+		<auth_info>
+			<auth_mechanism>0</auth_mechanism>
+			<auth_domain></auth_domain>
+			<auth_user></auth_user>
+			<auth_password></auth_password>
+			<use_client_ssl_certificate>false</use_client_ssl_certificate>
+			<cert_file></cert_file>
+			<cert_password></cert_password>
+		</auth_info>
+		<host index="0">
+			<name>localhost</name>
+			<protocol>http</protocol>
+			<port>80</port>
+		</host>
+		<browser>
+			<title><![CDATA[Browser_2]]></title>
+			<host_index>0</host_index>
+			<path>/Encryptech/index.php</path>
+			<task_id>1</task_id>
+			<think_time>10</think_time>
+		</browser>
+		<event object_name="WebBrowserElement">
+			<element_class>BrowserElement</element_class>
+			<type>1</type>
+			<type_name>close</type_name>
+			<element_title><![CDATA[close on WebBrowserElement]]></element_title>
+			<think_time>1</think_time>
+			<task_id>2</task_id>
+			<is_window_element>false</is_window_element>
+			<is_recorded_while_showing_ssl>false</is_recorded_while_showing_ssl>
+			<image_file></image_file>
+		</event>
+	</group>
+	<group name="ActionGroup1" active_product_id="5" set_proxy="false">
+		<starting_url><![CDATA[http://localhost:443/Encryptech/index.php]]></starting_url>
+		<auth_info>
+			<auth_mechanism>0</auth_mechanism>
+			<auth_domain></auth_domain>
+			<auth_user></auth_user>
+			<auth_password></auth_password>
+			<use_client_ssl_certificate>false</use_client_ssl_certificate>
+			<cert_file></cert_file>
+			<cert_password></cert_password>
+		</auth_info>
+		<host index="0">
+			<name>localhost</name>
+			<protocol>http</protocol>
+			<port>443</port>
+		</host>
+		<browser>
+			<title><![CDATA[Browser_3]]></title>
+			<host_index>0</host_index>
+			<path>/Encryptech/index.php</path>
+			<task_id>1</task_id>
+			<think_time>10</think_time>
+		</browser>
+		<event object_name="WebBrowserElement">
+			<element_class>BrowserElement</element_class>
+			<type>1</type>
+			<type_name>close</type_name>
+			<element_title><![CDATA[close on WebBrowserElement]]></element_title>
+			<think_time>1</think_time>
+			<task_id>2</task_id>
+			<is_window_element>false</is_window_element>
+			<is_recorded_while_showing_ssl>false</is_recorded_while_showing_ssl>
+			<image_file></image_file>
+		</event>
+	</group>
+	<group name="ActionGroup1" active_product_id="5" set_proxy="true">
+		<starting_url><![CDATA[http://localhost/Encryptech/index.php]]></starting_url>
+		<auth_info>
+			<auth_mechanism>0</auth_mechanism>
+			<auth_domain></auth_domain>
+			<auth_user></auth_user>
+			<auth_password></auth_password>
+			<use_client_ssl_certificate>false</use_client_ssl_certificate>
+			<cert_file></cert_file>
+			<cert_password></cert_password>
+		</auth_info>
+		<host index="0">
+			<name>localhost</name>
+			<protocol>http</protocol>
+			<port>80</port>
+		</host>
+		<proxy_request>
+			<host_name>detectportal.firefox.com</host_name>
+			<request_method>GET</request_method>
+			<port>80</port>
+			<uri>/success.txt</uri>
+			<response_code>200</response_code>
+			<is_secure_http>false</is_secure_http>
+			<is_multi_part>false</is_multi_part>
+			<is_sub_task>false</is_sub_task>
+			<think_time>321</think_time>
+			<request_entity>
+			</request_entity>
+			<header name="User-Agent">
+				<value><![CDATA[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:58.0) Gecko/20100101 Firefox/58.0]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept">
+				<value><![CDATA[*/*]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Language">
+				<value><![CDATA[en-US,en;q=0.5]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Encoding">
+				<value><![CDATA[gzip, deflate]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Cache-Control">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Pragma">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Connection">
+				<value><![CDATA[keep-alive]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+		</proxy_request>
+		<proxy_response>
+			<uri><![CDATA[/success.txt]]></uri>
+			<content_type>text/plain</content_type>
+			<file_name>C:\xampp\htdocs\Encryptech\NewProject3\recorded\2019_10_22_14_27_37_39\ActionGroup1\Task1.txt</file_name>
+		</proxy_response>
+		<proxy_request>
+			<host_name>detectportal.firefox.com</host_name>
+			<request_method>GET</request_method>
+			<port>80</port>
+			<uri>/success.txt</uri>
+			<response_code>200</response_code>
+			<is_secure_http>false</is_secure_http>
+			<is_multi_part>false</is_multi_part>
+			<is_sub_task>false</is_sub_task>
+			<think_time>12895</think_time>
+			<request_entity>
+			</request_entity>
+			<header name="User-Agent">
+				<value><![CDATA[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:58.0) Gecko/20100101 Firefox/58.0]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept">
+				<value><![CDATA[*/*]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Language">
+				<value><![CDATA[en-US,en;q=0.5]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Encoding">
+				<value><![CDATA[gzip, deflate]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Cache-Control">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Pragma">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Connection">
+				<value><![CDATA[keep-alive]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+		</proxy_request>
+		<proxy_response>
+			<uri><![CDATA[/success.txt]]></uri>
+			<content_type>text/plain</content_type>
+			<file_name>C:\xampp\htdocs\Encryptech\NewProject3\recorded\2019_10_22_14_27_37_39\ActionGroup1\Task2.txt</file_name>
+		</proxy_response>
+		<proxy_request>
+			<host_name>detectportal.firefox.com</host_name>
+			<request_method>GET</request_method>
+			<port>80</port>
+			<uri>/success.txt</uri>
+			<response_code>200</response_code>
+			<is_secure_http>false</is_secure_http>
+			<is_multi_part>false</is_multi_part>
+			<is_sub_task>false</is_sub_task>
+			<think_time>22296</think_time>
+			<request_entity>
+			</request_entity>
+			<header name="User-Agent">
+				<value><![CDATA[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:58.0) Gecko/20100101 Firefox/58.0]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept">
+				<value><![CDATA[*/*]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Language">
+				<value><![CDATA[en-US,en;q=0.5]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Encoding">
+				<value><![CDATA[gzip, deflate]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Cache-Control">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Pragma">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Connection">
+				<value><![CDATA[keep-alive]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+		</proxy_request>
+		<proxy_response>
+			<uri><![CDATA[/success.txt]]></uri>
+			<content_type>text/plain</content_type>
+			<file_name>C:\xampp\htdocs\Encryptech\NewProject3\recorded\2019_10_22_14_27_37_39\ActionGroup1\Task3.txt</file_name>
+		</proxy_response>
+		<proxy_request>
+			<host_name>detectportal.firefox.com</host_name>
+			<request_method>GET</request_method>
+			<port>80</port>
+			<uri>/success.txt</uri>
+			<response_code>200</response_code>
+			<is_secure_http>false</is_secure_http>
+			<is_multi_part>false</is_multi_part>
+			<is_sub_task>false</is_sub_task>
+			<think_time>724</think_time>
+			<request_entity>
+			</request_entity>
+			<header name="User-Agent">
+				<value><![CDATA[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:58.0) Gecko/20100101 Firefox/58.0]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept">
+				<value><![CDATA[*/*]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Language">
+				<value><![CDATA[en-US,en;q=0.5]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Encoding">
+				<value><![CDATA[gzip, deflate]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Cache-Control">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Pragma">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Connection">
+				<value><![CDATA[keep-alive]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+		</proxy_request>
+		<proxy_response>
+			<uri><![CDATA[/success.txt]]></uri>
+			<content_type>text/plain</content_type>
+			<file_name>C:\xampp\htdocs\Encryptech\NewProject3\recorded\2019_10_22_14_27_37_39\ActionGroup1\Task4.txt</file_name>
+		</proxy_response>
+		<proxy_request>
+			<host_name>detectportal.firefox.com</host_name>
+			<request_method>GET</request_method>
+			<port>80</port>
+			<uri>/success.txt</uri>
+			<response_code>200</response_code>
+			<is_secure_http>false</is_secure_http>
+			<is_multi_part>false</is_multi_part>
+			<is_sub_task>false</is_sub_task>
+			<think_time>2769</think_time>
+			<request_entity>
+			</request_entity>
+			<header name="User-Agent">
+				<value><![CDATA[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:58.0) Gecko/20100101 Firefox/58.0]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept">
+				<value><![CDATA[*/*]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Language">
+				<value><![CDATA[en-US,en;q=0.5]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Encoding">
+				<value><![CDATA[gzip, deflate]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Cache-Control">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Pragma">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Connection">
+				<value><![CDATA[keep-alive]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+		</proxy_request>
+		<proxy_response>
+			<uri><![CDATA[/success.txt]]></uri>
+			<content_type>text/plain</content_type>
+			<file_name>C:\xampp\htdocs\Encryptech\NewProject3\recorded\2019_10_22_14_27_37_39\ActionGroup1\Task5.txt</file_name>
+		</proxy_response>
+		<proxy_request>
+			<host_name>detectportal.firefox.com</host_name>
+			<request_method>GET</request_method>
+			<port>80</port>
+			<uri>/success.txt</uri>
+			<response_code>200</response_code>
+			<is_secure_http>false</is_secure_http>
+			<is_multi_part>false</is_multi_part>
+			<is_sub_task>false</is_sub_task>
+			<think_time>4911</think_time>
+			<request_entity>
+			</request_entity>
+			<header name="User-Agent">
+				<value><![CDATA[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:58.0) Gecko/20100101 Firefox/58.0]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept">
+				<value><![CDATA[*/*]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Language">
+				<value><![CDATA[en-US,en;q=0.5]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Encoding">
+				<value><![CDATA[gzip, deflate]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Cache-Control">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Pragma">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Connection">
+				<value><![CDATA[keep-alive]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+		</proxy_request>
+		<proxy_response>
+			<uri><![CDATA[/success.txt]]></uri>
+			<content_type>text/plain</content_type>
+			<file_name>C:\xampp\htdocs\Encryptech\NewProject3\recorded\2019_10_22_14_27_37_39\ActionGroup1\Task6.txt</file_name>
+		</proxy_response>
+		<proxy_request>
+			<host_name>detectportal.firefox.com</host_name>
+			<request_method>GET</request_method>
+			<port>80</port>
+			<uri>/success.txt</uri>
+			<response_code>200</response_code>
+			<is_secure_http>false</is_secure_http>
+			<is_multi_part>false</is_multi_part>
+			<is_sub_task>false</is_sub_task>
+			<think_time>530</think_time>
+			<request_entity>
+			</request_entity>
+			<header name="User-Agent">
+				<value><![CDATA[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:58.0) Gecko/20100101 Firefox/58.0]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept">
+				<value><![CDATA[*/*]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Language">
+				<value><![CDATA[en-US,en;q=0.5]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Encoding">
+				<value><![CDATA[gzip, deflate]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Cache-Control">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Pragma">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Connection">
+				<value><![CDATA[keep-alive]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+		</proxy_request>
+		<proxy_response>
+			<uri><![CDATA[/success.txt]]></uri>
+			<content_type>text/plain</content_type>
+			<file_name>C:\xampp\htdocs\Encryptech\NewProject3\recorded\2019_10_22_14_27_37_39\ActionGroup1\Task7.txt</file_name>
+		</proxy_response>
+		<proxy_request>
+			<host_name>detectportal.firefox.com</host_name>
+			<request_method>GET</request_method>
+			<port>80</port>
+			<uri>/success.txt</uri>
+			<response_code>200</response_code>
+			<is_secure_http>false</is_secure_http>
+			<is_multi_part>false</is_multi_part>
+			<is_sub_task>false</is_sub_task>
+			<think_time>62366</think_time>
+			<request_entity>
+			</request_entity>
+			<header name="User-Agent">
+				<value><![CDATA[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:58.0) Gecko/20100101 Firefox/58.0]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept">
+				<value><![CDATA[*/*]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Language">
+				<value><![CDATA[en-US,en;q=0.5]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Accept-Encoding">
+				<value><![CDATA[gzip, deflate]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Cache-Control">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Pragma">
+				<value><![CDATA[no-cache]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+			<header name="Connection">
+				<value><![CDATA[keep-alive]]></value>
+				<is_file>false</is_file>
+				<content_type></content_type>
+			</header>
+		</proxy_request>
+		<proxy_response>
+			<uri><![CDATA[/success.txt]]></uri>
+			<content_type>text/plain</content_type>
+			<file_name>C:\xampp\htdocs\Encryptech\NewProject3\recorded\2019_10_22_14_27_37_39\ActionGroup1\Task8.txt</file_name>
+		</proxy_response>
+		<browser>
+			<title><![CDATA[Browser_1]]></title>
+			<host_index>0</host_index>
+			<path>/Encryptech/index.php</path>
+			<task_id>1</task_id>
+			<think_time>10</think_time>
+		</browser>
+		<event object_name="WebBrowserElement">
+			<element_class>BrowserElement</element_class>
+			<type>1</type>
+			<type_name>close</type_name>
+			<element_title><![CDATA[close on WebBrowserElement]]></element_title>
+			<think_time>1</think_time>
+			<task_id>2</task_id>
+			<is_window_element>false</is_window_element>
+			<is_recorded_while_showing_ssl>false</is_recorded_while_showing_ssl>
+			<image_file></image_file>
+		</event>
+	</group>
+	<group name="ActionGroup2" active_product_id="5" set_proxy="false">
+		<starting_url><![CDATA[http://localhost/Encryptech/index.php]]></starting_url>
+		<auth_info>
+			<auth_mechanism>0</auth_mechanism>
+			<auth_domain></auth_domain>
+			<auth_user></auth_user>
+			<auth_password></auth_password>
+			<use_client_ssl_certificate>false</use_client_ssl_certificate>
+			<cert_file></cert_file>
+			<cert_password></cert_password>
+		</auth_info>
+		<host index="0">
+			<name>localhost</name>
+			<protocol>http</protocol>
+			<port>80</port>
+		</host>
+		<browser>
+			<title><![CDATA[Browser_2]]></title>
+			<host_index>0</host_index>
+			<path>/Encryptech/index.php</path>
+			<task_id>1</task_id>
+			<think_time>10</think_time>
+		</browser>
+		<event object_name="WebBrowserElement">
+			<element_class>BrowserElement</element_class>
+			<type>1</type>
+			<type_name>close</type_name>
+			<element_title><![CDATA[close on WebBrowserElement]]></element_title>
+			<think_time>1</think_time>
+			<task_id>2</task_id>
+			<is_window_element>false</is_window_element>
+			<is_recorded_while_showing_ssl>false</is_recorded_while_showing_ssl>
+			<image_file></image_file>
+		</event>
+	</group>
+	<group name="ActionGroup1" active_product_id="5" set_proxy="false">
+		<starting_url><![CDATA[http://localhost/Encryptech/index.php]]></starting_url>
+		<auth_info>
+			<auth_mechanism>0</auth_mechanism>
+			<auth_domain></auth_domain>
+			<auth_user></auth_user>
+			<auth_password></auth_password>
+			<use_client_ssl_certificate>false</use_client_ssl_certificate>
+			<cert_file></cert_file>
+			<cert_password></cert_password>
+		</auth_info>
+		<host index="0">
+			<name>localhost</name>
+			<protocol>http</protocol>
+			<port>80</port>
+		</host>
+		<browser>
+			<title><![CDATA[Browser_1]]></title>
+			<host_index>0</host_index>
+			<path>/Encryptech/index.php</path>
+			<task_id>1</task_id>
+			<think_time>10</think_time>
+		</browser>
+		<event object_name="WebBrowserElement">
+			<element_class>BrowserElement</element_class>
+			<type>1</type>
+			<type_name>close</type_name>
+			<element_title><![CDATA[close on WebBrowserElement ]]></element_title>
+			<think_time>1</think_time>
+			<task_id>2</task_id>
+			<is_window_element>false</is_window_element>
+			<is_recorded_while_showing_ssl>false</is_recorded_while_showing_ssl>
+			<image_file></image_file>
+		</event>
+	</group>
+</recording_info>

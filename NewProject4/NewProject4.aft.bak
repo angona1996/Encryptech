@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Name="NewProject4" ProductVersion="14.5.0" Perspective="com.appperfect.functionaltester.ui.FunctionalTesterPerspective">
+	<ProjectLocation KEY="ProjectLocation">C:\xampp\htdocs\Encryptech\NewProject4\</ProjectLocation>
+	<TargetSettings ProjectType="0">
+	</TargetSettings>
+	<NotificationSettings SendNotification="false" SendOnTestFail="false" SendEmailNotification="false" SendAttachment="false" SendCustomNotification="false" SendMsgAsArgument="false">
+		<ProductType ID="Functional Tester">
+			<Format><![CDATA[Project Name: $PROJECT_NAME$. Duration: $PROJECT_DURATION$.
+Status: $PROJECT_STATUS$. Failed iteration(s): $FAILED_ITERATION$.]]></Format>
+		</ProductType>
+	</NotificationSettings>
+	<Product id="com.appperfect.functionaltester.readerwriter" />
+</Project>
